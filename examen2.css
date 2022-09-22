@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #1ABC9C;
+    height: 70px;
+}
+.ancho{
+    width: 80%;
+    height: 70px;
+    /*background-color: red;*/
+    margin: auto;
+}
+.logo{
+    width: 30%;
+    height: 70px;
+    /*background: blue;*/
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.logo p a{
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: rale;
+}
+nav{
+    width: 70%;
+    height: 70px;
+    /*background: olive;*/
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: aquamarine;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: rale;
+}
+nav ul li a:hover{
+    color: #444;
+}
+@font-face {
+    font-family: rale;
+    src: url(Font/Raleway-Regular.ttf);
+}
+.imagen{
+    width: 100%;
+    height: 900px;
+    background: #1ABC9C;
+    display: flex;
+    background-image: url(imagen/presenta1.jpg);
+    background-repeat: no-repeat;
+    justify-content: center;
+
+}
+.informacion{
+    background-color: #fafcfc;
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: rale;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.cuadro{
+    width: 100%;
+    background-color: aquamarine;
+    height: 50px;
+    text-align: center;
+}
+.cuadro p a{
+    color:#fff;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: rale;
+}
+.actividad{
+    width: 100%;
+    background-color: rgb(28, 201, 143);
+    height: 25px;
+    text-align: center;
+    margin: auto;
+    padding: 1px
+}
+.actividad p a{
+    color:#fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: rale;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 230px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+.Seccion{
+    width: 550px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.parte2{
+    width: 100%;
+    background-color: rgb(28, 201, 143);
+    height: 25px;
+    text-align: center;
+    margin: auto;
+    padding: 1px
+}
+.parte2 p a{
+    color:#fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: rale;
+    text-align: center;
+}
+.Seccion1{
+    width: 1500px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+}
+.ancho1{
+    width: 100%;
+    height: 100px;
+    background-color: #1ABC9C;
+    margin: auto;
+    justify-content: center;
+}
+.ultima1{
+    width: 100%;
+    background-color: #1ABC9C;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+}
+.ultima1 p a{
+    color:#fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: rale;
+    text-align: center;
+}
+.cuadro4{
+    width: 800px;
+    height: 20px;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+}
+.Seccion9{
+    width: 550px;
+    height: 40px;
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.Seccion10{
+    width: 550px;
+    height: 40px;
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    justify-self: unset;
+} footer p a{
+    display: flow-root;
+}
